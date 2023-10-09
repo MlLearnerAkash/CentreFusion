@@ -87,7 +87,7 @@ ATTRIBUTE_TO_ID = {
 
 def main():
   if not os.path.exists(OUT_PATH):
-    os.mkdir(OUT_PATH)
+    os.makedirs(OUT_PATH)
   for split in SPLITS:
     # data_path = DATA_PATH + '{}/'.format(SPLITS[split])
     data_path = DATA_PATH

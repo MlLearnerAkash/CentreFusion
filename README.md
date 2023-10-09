@@ -165,6 +165,13 @@ Download the pre-trained model into the `$CF_ROOT/models` directory and use the 
 
 Make sure the `--load_model` parameter in the script provides the path to the downloaded pre-trained model. The `--val_split` parameter determines the validation set, which could be `mini_val`, `val` or `test`. You can adjust the other parameters as needed, or add more supported parameters from `$CF_ROOT/src/lib/opts.py`.
 
+## Demo
+To show the visualization as in the README, the following command should be run:
+```Python3
+python src/demo.py --demo demo_data/Driving.mp4 --load_model models/centerfusion_e60.pth ddd
+
+ddd: The task name
+```
 ---
 ## References
 The following works have been used by CenterFusion:

@@ -132,3 +132,7 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#Models
+models/
+demo_data/
